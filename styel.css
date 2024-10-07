@@ -1,0 +1,306 @@
+body{
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  background-color: rgb(240, 243, 252);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  min-width:100vw;
+  background-color: rgb(240, 243, 252);;
+}
+
+.nav{
+  height: 112px;
+  width: 100vw;
+  position: sticky;
+  z-index: 3;
+  top: 0px;
+  background-color: rgb(240, 243, 252);;
+}
+
+.nav-name{
+  height: 64px;
+  width: 80%;
+  display: flex;
+  position: relative;
+  top: 23px;
+  left: 60px;
+}
+
+.EpochAgency{
+  position: relative;
+  top: 22px;
+  left: 2rem;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.spa{
+  position: relative;
+  top: 22px;
+  left: 4rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 2rem;
+}
+
+.spa:hover{
+  text-decoration: underline black;
+  cursor: pointer;
+}
+
+.next-nav{
+  display: inline-block;
+  position: relative;
+  left: 78rem;
+  top: -29px;
+}
+
+.next-nav i{
+  margin-left: 2rem;
+}
+
+.next-nav i:hover{
+  text-decoration: underline black;
+  cursor: pointer;
+}
+
+.next-nav button{
+  height: 50px;
+  width: 100px;
+  background-color: rgb(103, 61, 230);
+  color: rgb(240, 243, 252);
+  border-color: rgb(103, 61, 230);
+  border-radius: 2rem;
+}
+
+.img-container{
+  height: 100vh;
+  width: 100vw;
+  background-image: url("HAPPY.jpg");
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.heanding-div{
+  display: inline-block;
+  margin-top: 5rem;
+  margin-left: 38rem;
+}
+
+
+.para1{
+  text-wrap:balance ;
+  font-family: sans-serif;
+  position: relative;
+  right: 10rem;
+  line-height: 2rem;
+  color: white;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+#head{
+  font-family: sans-serif;
+  display: inline-block;
+  color: white;
+}
+
+.btn-div{
+  position: relative;
+  display: inline-block;
+  left: 6rem;
+  top: 3rem;
+}
+
+.btn-div button{
+  height: 50px;
+  width: 130px;
+  font-size: 15px;
+  background-color: white;
+  color: blue;
+  border-radius: 2rem;
+  border: none;
+}
+
+/* next women img */
+
+
+.women-img{
+  height: 520px;
+  width: 730px;
+  background-image: url("women.webp");
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+  left: 15rem;
+  top: 5rem;
+}
+
+.text-para{
+  height: 410px;
+  width: 730px;
+  background-color: rgb(240, 243, 252);;
+  display: inline-block;
+  position: relative;
+  left: 25rem;
+  top: 4rem;
+  z-index: 2;
+}
+
+h2{
+  color: #673de6;
+  font-size: 48px;
+  font-family:Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 5rem;
+  top: 2rem;
+}
+
+#para{
+  position: relative;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-wrap: balance;
+  left: 4rem;
+  top: 5rem;
+  line-height: 28px;
+}
+
+.text-para button{
+  position: relative;
+  top: 8rem;
+  left: 19rem;
+
+  height: 50px;
+  width: 140px;
+  font-size: 15px;
+  background-color:#673de6 ;
+  color: white;
+  border-radius: 2rem;
+  border: none;
+}
+
+.next-para-cont{
+  height: 300px;
+  width: 1140px;
+  background-color: rgb(240, 243, 252);
+}
+
+#para-one{
+  position: relative;
+  top: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#para-two{
+  position: relative;
+  top: 4rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.next-para-cont{
+  position: relative;
+  top: 16rem;
+}
+
+#next-h2{
+  position: relative;
+  left: 0rem;
+}
+
+.forest-img{
+  height: 700px;
+  width: 100vw;
+  background-image: url("forest.webp");
+  background-size: cover;
+  position: relative;
+  top: 29rem;
+}
+
+.forest-img{
+  color: white;
+  font-size: 20px;
+  text-wrap:balance ;
+}
+
+#big-font{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white;
+  text-wrap:balance;
+  position: relative;
+  top: 15rem;
+  left: 12rem;
+}
+
+.cont{
+  display: flex;
+  margin-left: 5rem;
+}
+
+.one{
+  height: 555px;
+  width: 380px;
+  margin-left: 5rem;
+  margin-top: 35rem;
+}
+
+.img-one{
+  height: 262px;
+  width: 380px;
+  background-image: url("box1.webp");
+  background-size: cover;
+}
+
+.img-two{
+  height: 262px;
+  width: 380px;
+  background-image: url("box2.webp");
+  background-size: cover;
+}
+
+.img-three{
+  height: 262px;
+  width: 380px;
+  background-image: url("box3.webp");
+  background-size: cover;
+}
+
+.h5{
+  display: inline-block;
+  position: relative;
+  top: 18rem;
+  left: 6px;
+  font-family: "Jost", sans-serif;
+  font-size: large;
+}
+
+.h6{
+  display: inline-block;
+  position: relative;
+  top: 21rem;
+  right: 88px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#next-h{
+  display: inline-block;
+  position: relative;
+  top: 21rem;
+  right: 111px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.end-para{
+  display: inline-block;
+  position: relative;
+  top: 24rem;
+  left: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
